@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".YearList">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <Button
+        android:id ="@+id/twenty"
+        android:text = "2020"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        style="@style/Button_style" />
+    <Button
+        android:id = "@+id/ninteen"
+        android:text = "2019"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        style = "@style/Button_style"
+        />
+
+    <Button
+        android:id ="@+id/eighteen"
+        android:text="2018"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        style = "@style/Button_style"
+        />
+
+        <Button
+            android:id ="@+id/seventeen"
+            android:text = "2017"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+            style="@style/Button_style" />
+        <Button
+            android:id = "@+id/sixteen"
+            android:text = "2016"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style = "@style/Button_style"
+            />
+
+        <Button
+            android:id ="@+id/fifteen"
+            android:text="2015"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style = "@style/Button_style"
+            />
+        <Button
+            android:id ="@+id/fourteen"
+            android:text = "2014"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+            style="@style/Button_style" />
+        <Button
+            android:id = "@+id/thirteen"
+            android:text = "2013"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style = "@style/Button_style"
+            />
+
+        <Button
+            android:id ="@+id/twelve"
+            android:text="2012"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style = "@style/Button_style"
+            />
+        <Button
+            android:id ="@+id/eleven"
+            android:text = "2011"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+
+            style="@style/Button_style" />
+        <Button
+            android:id = "@+id/ten"
+            android:text = "2010"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style = "@style/Button_style"
+            />
+
+        <Button
+            android:id ="@+id/nine"
+            android:text="2009"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            style = "@style/Button_style"
+            />
+    </LinearLayout>
+
+    </ScrollView>
+
+</layout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/computer_engineering"
+        android:title="CS/IT"
+        />
+
+    <item
+        android:id="@+id/mechanical_engineering"
+        android:title="MECHANICAL ENGINEERING" />
+    <item
+        android:id="@+id/civil_engineering"
+        android:title="CIVIL ENGINEERING" />
+    <item
+        android:id ="@+id/ece"
+        android:title ="ECE"/>
+    <item
+        android:id="@+id/answer_online"
+        android:title ="ONLINE ANSWER "/>
+    <item
+        android:id ="@+id/Rate_us"
+        android:title="Rate us"/>
+</menu>

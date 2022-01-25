@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/yearList">
+
+    <fragment
+        android:id="@+id/yearList"
+        android:name="com.example.gatepreviousyear.YearList"
+        android:label="Year List "
+        tools:layout="@layout/fragment_year_list">
+        <action
+            android:id="@+id/action_yearList_to_questionPaper"
+            app:destination="@id/questionPaper"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionPaper"
+        android:name="com.example.gatepreviousyear.QuestionPaper"
+        android:label="Question Paper 2019"
+        tools:layout="@layout/fragment_question_paper">
+        <action
+            android:id="@+id/action_questionPaper_to_result"
+            app:destination="@id/result"
+            app:popUpTo="@id/yearList" />
+        <action
+            android:id="@+id/action_questionPaper_to_yearList"
+            app:destination="@id/yearList" />
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/result"
+        android:name="com.example.gatepreviousyear.Result"
+        android:label="Result"
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="question_attempted"
+            app:argType="integer" />
+        <argument
+            android:name="total_question"
+            app:argType="integer" />
+        <argument
+            android:name="total marks"
+            app:argType="integer" />
+    </fragment>
+</navigation>
